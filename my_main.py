@@ -10,7 +10,7 @@ from OpenGL.GLUT import *
 
 def main():
     pg.init()
-    display = (1680, 1050)
+    display = (1600, 1050)
     pg.display.set_mode(display, DOUBLEBUF | OPENGL)  # bw or just __or__
 
     pass
